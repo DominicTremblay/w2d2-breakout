@@ -29,6 +29,8 @@
 - Anything inside {} is a block
 - const cannot be reassigned
 
+[Block Scope](./block_scope.js)
+
 # Arrow functions
 
 - More concise
@@ -36,14 +38,20 @@
 - Doesn't rebind the 'this' keyword
 - Cannot be named
 
+[Arrow Functions](./arrow_functions.js)
+
 # String Literals
 
 - use \${} to insert JS expressions into strings
+
+[String Literals](./string_literals.js)
 
 # Rest and Spread operators
 
 - Spread is used on the righ side of an assignment
 - Rest is used on the left side of an assignment
+
+[Rest and Spread](./rest_spread.js)
 
 # for of
 
@@ -63,8 +71,9 @@ for (const [index, fruit] of fruits.entries()) {
 console.log(`This is the element ${fruit} at the index ${index}`);
 }
 
+[For Of Loop](./forof.js)
+
 ## Destructuring
 
-### Array Destructuring
-
-### Object Destructuring
+[Array Destructuring](./array_destructuring.js)
+[Object Destructuring](./object_destructuring)
