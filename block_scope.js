@@ -10,6 +10,7 @@ function say() {
   if (true) {
     var word = 'yeah!';
   }
+
   return word;
 }
 
@@ -38,8 +39,8 @@ function say() {
 function say() {
   let word = 'Boo'
   {
-    console.log(word);
     let word = 'Yeah!'
+    console.log(word);
   }
   return word;
 }
@@ -47,19 +48,19 @@ function say() {
 //
 
 var countries = {
-    Europe: ['Spain', 'Italy', 'France','UK']
+    Europe: ['Spain', 'Italy', 'France', 'UK']
 }
 
 function findContinent (country, countries) {
 
-for (var continent in countries ) {
-  if (countries[continent].indexOf(country) >= 0) {
-    var continentFound = continent;
-    } else {
-      var continentFound = 'Not found';
+  for (var continent in countries ) {
+    if (countries[continent].indexOf(country) >= 0) {
+      var continentFound = continent;
+      } else {
+        var continentFound = 'Not found';
+      }
     }
-  }
-  return continentFound;
+    return continentFound;
 }
 
 // let vs const
@@ -75,16 +76,16 @@ temperatures.push(22); // Is this allowed?
 temperatures = []; // Is this allowed
 
 const music = {
-  track: 'Nation',
-  performer: 'tibz'
+  track: 'I Don't Wanna Go to Bed',
+  performer: 'Simple plan'
 }
 
 music.performer = 'Ed Sheeran'; // Is this allowed?
 
 // Is this allowed?
 music = {
-  track: 'Nothing else mathers',
-  performer: 'Metallica'
+  track: 'Boulevard of Broken Dreams',
+  performer: 'Green Day'
 }
 
 

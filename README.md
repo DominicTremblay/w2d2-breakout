@@ -1,11 +1,20 @@
-# ES6 Syntax
+# W2D3 - Breakout - ES6 Syntax
 
 - "ES6" => 6th Edition of the ECMA-262 standard
 - You might see "ES2015" or "ECMAScript 2015" => Year of the standard
 - ES6 introduces a lot of new features because ES5 was released in 1999
 - We now have yearly releases with ES7 (ES2016) and ES8 (ES2017)
 
+| Version   | Standard            |
+| :-------- | :------------------ |
+| Version 5 | ECMAScript 5 (2009) |
+| Version 6 | ECMAScript 2015     |
+| Version 7 | ECMAScript 2016     |
+| Version 8 | ECMAScript 2017     |
+| Version 9 | ECMAScript 2018     |
+
 ## What we're going to cover:
+
 1. var vs let vs const
 2. Arrow functions
 3. String literals
@@ -21,13 +30,15 @@
 - const cannot be reassigned
 
 # Arrow functions
+
 - More concise
 - Arrow fcts can have an implicit return
 - Doesn't rebind the 'this' keyword
-- Cannot be named 
+- Cannot be named
 
 # String Literals
-- use ${} to insert JS expressions into strings
+
+- use \${} to insert JS expressions into strings
 
 # Rest and Spread operators
 
@@ -35,19 +46,25 @@
 - Rest is used on the left side of an assignment
 
 # for of
+
 - Loop over iterables such as arrays and stringss
 - Possible to use `break` and `continue`
 
-
 ### Get Access to the Index
+
 - With for of, there is no predefined access to the index in the array
 - If we need the index, create a counter variable or loop over the iterator
 
 ### Looping over the iterator
+
 - now we get the index and the element
 
 for (const [index, fruit] of fruits.entries()) {
-    console.log(`This is the element ${fruit} at the index ${index}`);
+console.log(`This is the element ${fruit} at the index ${index}`);
 }
 
+## Destructuring
 
+### Array Destructuring
+
+### Object Destructuring
